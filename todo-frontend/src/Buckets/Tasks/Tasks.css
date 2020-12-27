@@ -1,0 +1,73 @@
+.Tasks {
+    color: red;
+    display: block;
+}
+
+.TaskName {
+    padding: 2px;
+    color: grey;
+    width: 85%;
+    display: inline-block;
+
+    border-style: solid;
+    border-width: 0px;
+    border-color: white;
+}
+
+.Checked {
+    text-decoration: line-through;
+}
+
+.TaskMark {
+    display: inline-block;
+}
+
+
+.TaskNameEditInput {
+    padding: 5px 12px;
+    color: #3f89c2;
+    border-radius: 4px;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.TaskNameEditSubmit {
+    margin-left: 5px;
+    color: white;
+    background: #3f89c2;
+    padding: 5px 12px;
+    border: 1px solid #3f89c2;
+    outline: none;
+    border-radius: 4px;
+}
+
+.TaskNameEditSubmit:hover {
+    background: #569dd3;
+    border: 1px solid #569dd3;
+}
+
+.TaskNameEditSubmit:active {
+    background: #21547a;
+    border: 1px solid #21547a;
+}
+
+.TaskNameEditCancel {
+    margin-left: 5px;
+    color: #3f89c2;
+    background: #fff;
+    padding: 5px 12px;
+    border: 1px solid #3f89c2;
+    outline: none;
+    border-radius: 4px;
+}
+
+.TaskNameEditCancel:hover {
+    background: #eee;
+    border: 1px solid #569dd3;
+}
+
+.TaskNameEditCancel:active {
+    background: #fff;
+    border: 1px solid #21547a;
+}

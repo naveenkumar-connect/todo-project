@@ -1,0 +1,75 @@
+.Toolbar {
+    
+    /* background-color: #1b65d0; */
+    background-color: #3f89c2;
+    height: 50px;
+    
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    box-sizing: border-box;
+    z-index: 90;
+    -webkit-box-shadow: 0 1px 3px -1px white;
+    -moz-box-shadow: 0 1px 3px -1px white;
+         box-shadow: 0 1px 3px -1px white;
+         
+    font-family: 'Lato', sans-serif;
+
+    color: whitesmoke;
+    
+}
+
+.ToDoText{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Logout {
+    color: "red";
+    text-decoration: none;
+}
+
+.Logout:link {
+    color: white;
+}
+
+.Logout:visited {
+    color: white;
+}
+
+.Logout:hover {
+    color: white;
+}
+
+.Logout:active {
+    color: white;
+}
+
+
+.Login {
+    color: "red";
+    text-decoration: none;
+}
+
+.Login:link {
+    color: white;
+}
+
+.Login:visited {
+    color: white;
+}
+
+.Login:hover {
+    color: white;
+}
+
+.Login:active {
+    Login: white;
+}
