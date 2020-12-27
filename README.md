@@ -1,5 +1,5 @@
 # todo-project
-ToDo web application, manages a record of the planned tasks, which be updated, marked and deleted.
+ToDo web application, manages a record of the planned tasks, which can be updated, marked and deleted.
 
 Developed By: Naveen Kumar Saini
 
